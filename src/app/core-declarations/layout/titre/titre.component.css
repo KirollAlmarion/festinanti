@@ -1,0 +1,29 @@
+:host {
+  display: block;
+}
+
+div{
+  display: flex;
+  width: 100vw;
+  line-height: 5em;
+  background-color: var(--rouge-fonce, firebrick);
+}
+
+svg, img{
+  width: 4em;
+  height: 4em;
+  margin: .5em;
+}
+
+svg>rect, svg>g{
+  stroke: var(--ocre, yellow);
+}
+
+h1{
+  flex-grow: 1;
+  font-family: Edwardian Script ITC, Kunstler Script, Palace Script MT, Snell Roundhand, cursive;
+  text-align: center;
+  padding: .3em;
+  font-size: 5em;
+  color: var(--ocre, yellow);
+}
