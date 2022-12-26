@@ -1,4 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+  --rouge-fonce: firebrick;
+  --ocre: goldenrod;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -6,4 +11,13 @@
 }
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: Georgia, serif; }
+
+main{
+  min-width: 430px;
+  width: 80%;
+  margin: auto;
+  padding: 1em;
+  font-size: 2em;
+  color: black;
+}
