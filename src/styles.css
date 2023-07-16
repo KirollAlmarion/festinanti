@@ -11,13 +11,15 @@
 }
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Georgia, serif; }
+/* body { margin: 0; font-family: Georgia, serif; } */
 
 main{
   min-width: 430px;
   width: 80%;
   margin: auto;
   padding: 1em;
-  font-size: 2em;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-family: Georgia, serif;
   color: black;
 }

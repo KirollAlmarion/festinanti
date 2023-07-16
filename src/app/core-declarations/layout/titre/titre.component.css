@@ -19,11 +19,11 @@ svg>rect, svg>g{
   stroke: var(--ocre, yellow);
 }
 
-h1{
+#titre{
   flex-grow: 1;
   font-family: Edwardian Script ITC, Kunstler Script, Palace Script MT, Snell Roundhand, cursive;
   text-align: center;
-  padding: .3em;
-  font-size: 5em;
+  padding: .3rem;
+  font-size: 5rem;
   color: var(--ocre, yellow);
 }

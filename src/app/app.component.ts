@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IndexService } from './features/accueil/services/index.service';
 
 @Component({
   selector: 'app-root',
@@ -21,4 +22,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Festinanti';
+  _texteAccueil?: string[];
+  get texteAccueil(): string[]{
+    return this._texteAccueil!;
+  }
+
+  constructor(private index: IndexService){
+    this.index.getIndex().subscribe(res => this._texteAccueil = res);
+    console.log("Constructeur");
+  }
 }
