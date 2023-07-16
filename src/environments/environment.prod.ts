@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+  imgAssets: "assets/img",
+  txtAssets: "assets/txt"
 };

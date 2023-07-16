@@ -4,12 +4,14 @@ import { CommonModule } from '@angular/common';
 import { AccueilRoutingModule } from './accueil-routing.module';
 import { AccueilComponent } from './accueil.component';
 import { AccueilPage } from './pages/accueil/accueil.page';
+import { ParagraphesComponent } from './components/paragraphes/paragraphes.component';
 
 
 @NgModule({
   declarations: [
     AccueilComponent,
-    AccueilPage
+    AccueilPage,
+    ParagraphesComponent
   ],
   imports: [
     CommonModule,

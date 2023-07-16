@@ -14,7 +14,9 @@ ul {
   overflow: hidden;
 }
 
-
+ul:first-child{
+  cursor: pointer;
+}
 
 a{
   text-decoration: none;

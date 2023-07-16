@@ -13,7 +13,7 @@ import { ChangeDetectionStrategy, Component, EventEmitter, OnInit, Output } from
           </g>
       </svg>
       <a routerLink="/accueil"><img src="/assets/img/structure/scene.svg"></a>
-      <h1>Les Festinanti</h1>
+      <p id="titre">Les Festinanti</p>
     </div>
   `,
   styleUrls: ['./titre.component.css'],
