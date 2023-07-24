@@ -1,0 +1,25 @@
+:host {
+  display: block;
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img{
+  border-radius: 50%;
+  display: inline;
+  margin: .1rem;
+}
+
+figure{
+  margin: .5rem;
+}
+
+figcaption{
+  display: inline-block;
+  height: 100%;
+  width: 17rem;
+  vertical-align: middle;
+}

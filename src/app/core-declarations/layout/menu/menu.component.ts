@@ -7,8 +7,8 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
       <ul [style]="aspect">
           <li (click)="toggleMenu()"><a><mat-icon [fontIcon]="arrowIcon"></mat-icon><span>Replier</span></a></li>
           <li><a routerLink="/accueil" ><mat-icon [fontIcon]="homeIcon"></mat-icon><span>Accueil</span></a></li>
-          <li><a><mat-icon fontIcon="people"></mat-icon><span>Equipe</span></a></li>
-          <li><a><mat-icon fontIcon="portrait"></mat-icon><span>Personnages</span></a></li>
+          <li><a><mat-icon [fontIcon]="people"></mat-icon><span>Equipe</span></a></li>
+          <li><a routerLink="/personnages"><mat-icon fontIcon="portrait"></mat-icon><span>Personnages</span></a></li>
           <li><a><mat-icon fontIcon="auto_stories"></mat-icon><span> Canevas</span></a></li>
           <li><a><mat-icon fontIcon="event"></mat-icon><span>Actualité</span></a></li>
           <li><a><mat-icon fontIcon="diversity_2"></mat-icon><span>Partenaires</span></a></li>
@@ -24,6 +24,7 @@ export class MenuComponent implements OnInit {
   deplie = true;
   arrowIcon = "arrow_back";
   homeIcon = "home";
+  people = "people";
   aspect= "width: 10em;";
 
   constructor() { }

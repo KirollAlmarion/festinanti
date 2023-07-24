@@ -6,6 +6,7 @@ import {MatIconModule} from '@angular/material/icon';
 import { MenuComponent } from './menu/menu.component';
 import { TitreComponent } from './titre/titre.component';
 import { RouterModule } from '@angular/router';
+import { IntroComponent } from './intro/intro.component';
 
 
 
@@ -18,13 +19,13 @@ import { RouterModule } from '@angular/router';
   ],
   declarations: [
     MenuComponent,
-    TitreComponent
+    TitreComponent,
+    IntroComponent
   ],
   exports: [
-
-
     MenuComponent,
-      TitreComponent
+    TitreComponent,
+    IntroComponent
   ]
 })
 export class LayoutModule { }

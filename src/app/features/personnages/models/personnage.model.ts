@@ -4,5 +4,6 @@ export interface Personnage{
   nom: string,
   statut: Statut,
   masque: boolean,
-  description: string
+  description: string,
+  photo: string
 }
