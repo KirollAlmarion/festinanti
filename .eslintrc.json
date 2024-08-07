@@ -48,14 +48,11 @@
             "style": "kebab-case"
           }
         ],
-        // Enforce modern JavaScript
         "prefer-template": "error",
         "prefer-arrow-callback": "error",
-        // Strict types
         "eqeqeq": "error",
         "@typescript-eslint/no-explicit-any": "error",
         "@typescript-eslint/explicit-module-boundary-types": "error",
-        // Stricter Angular ESLint rules
         "@angular-eslint/contextual-decorator": "error",
         "@angular-eslint/no-attribute-decorator": "error",
         "@angular-eslint/no-forward-ref": "error",
@@ -65,8 +62,7 @@
         "@angular-eslint/no-queries-metadata-property": "error",
         "@angular-eslint/use-component-view-encapsulation": "error",
         "@angular-eslint/use-injectable-provided-in": "error",
-        // Stricter RxJS
-        "rxjs/no-exposed-subjects": "warn", // should be error in a real project
+        "rxjs/no-exposed-subjects": "warn",
         "rxjs/no-subclass": "error",
         "rxjs/no-subject-value": "error",
         "rxjs/no-topromise": "error",
@@ -74,14 +70,15 @@
         "rxjs/no-unsafe-first": "error",
         "rxjs/no-unsafe-switchmap": "error",
         "rxjs/throw-error": "error",
-        // Annoying as Angular CLI generates empty classes, constructors and `ngOnInit()`
         "@typescript-eslint/no-empty-function": "off",
         "@typescript-eslint/no-useless-constructor": "off",
-        "@typescript-eslint/no-extraneous-class": ["warn", {
-          "allowWithDecorator": true
-        }],
+        "@typescript-eslint/no-extraneous-class": [
+          "warn",
+          {
+            "allowWithDecorator": true
+          }
+        ],
         "@angular-eslint/no-empty-lifecycle-method": "off",
-        // Allow Angular forms validators like `Validator.required`
         "@typescript-eslint/unbound-method": [
           "error",
           {
@@ -98,26 +95,23 @@
         "plugin:@angular-eslint/template/recommended"
       ],
       "rules": {
-        // Strict types
         "@angular-eslint/template/no-any": "error",
-        // Stricter Anguler ESLint rules
         "@angular-eslint/template/conditional-complexity": "error",
         "@angular-eslint/template/cyclomatic-complexity": "error",
         "@angular-eslint/template/no-call-expression": "error",
         "@angular-eslint/template/no-duplicate-attributes": "error",
         "@angular-eslint/template/eqeqeq": "error",
-        // Accessibility
-        "@angular-eslint/template/accessibility-alt-text": "error",
-        "@angular-eslint/template/accessibility-elements-content": "error",
-        "@angular-eslint/template/accessibility-table-scope": "error",
-        "@angular-eslint/template/accessibility-valid-aria": "error",
         "@angular-eslint/template/click-events-have-key-events": "error",
         "@angular-eslint/template/mouse-events-have-key-events": "error",
         "@angular-eslint/template/no-autofocus": "error",
         "@angular-eslint/template/no-distracting-elements": "error",
         "@angular-eslint/template/no-positive-tabindex": "error",
-        "@angular-eslint/template/accessibility-label-for": "error",
-        "@angular-eslint/template/accessibility-label-has-associated-control": "error"
+        "@angular-eslint/template/alt-text": "error",
+        "@angular-eslint/template/elements-content": "error",
+        "@angular-eslint/template/table-scope": "error",
+        "@angular-eslint/template/valid-aria": "error",
+        "@angular-eslint/template/label-for": "error",
+        "@angular-eslint/template/label-has-associated-control": "error"
       }
     }
   ]
