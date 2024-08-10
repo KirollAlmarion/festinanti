@@ -1,37 +1,44 @@
-import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Inject, OnInit } from '@angular/core';
+import { MatDialog, MAT_DIALOG_DATA, MatDialogTitle, MatDialogContent } from '@angular/material/dialog';
 import { Personnage } from '../../models/personnage.model';
 import { environment } from 'src/environments/environment';
+import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-personnage[personnage]',
+  selector: 'personnage-dialog',
   template: `
-    <mat-card>
-      <mat-card-header>
-        <mat-card-title>{{personnage.nom}}</mat-card-title>
-        <mat-card-subtitle>{{personnage.statut}}</mat-card-subtitle>
-      </mat-card-header>
-      <img mat-card-image
-        [srcset]="chemin + personnage.photo + '-petit' + extension + ' 160w,' + chemin + personnage.photo + extension + ' 320w'"
-        sizes="(max-width: 575px) 160px, 320px"
-        [src]="chemin + personnage.photo + extension"
-        alt="Photo du personnage">
-      <mat-card-content>
-        <div *ngIf="personnage.masque; then thenBlock else elseBlock"></div>
-        <ng-template #thenBlock>Personnage masqué.</ng-template>
-        <ng-template #elseBlock>Personnage non masqué.</ng-template>
-        <p [innerHTML]="personnage.description"></p>
-      </mat-card-content>
-    </mat-card>
+    <h2 mat-dialog-title>{{data.nom}}</h2>
+    <mat-dialog-content>
+      <div>
+        <p>Rang social: {{data.statut}}</p>
+        <p>{{masque}}</p>
+      </div>
+      <!-- <div *ngIf="data.masque; then thenBlock else elseBlock"></div>
+        <ng-template #thenBlock>Rang social: {{data.statut}}       Personnage masqué.</ng-template>
+        <ng-template #elseBlock>Rang social: {{data.statut}} &#9; Personnage non masqué.</ng-template> -->
+        <figure>
+          <img
+
+          [src]="chemin + data.photo + extension"
+          alt="Photo du personnage" />
+          <figcaption [innerHTML]="data.description"></figcaption>
+        </figure>
+    </mat-dialog-content>
   `,
   styleUrls: ['./personnage.component.css'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  standalone: true,
+  imports: [CommonModule, MatDialogTitle, MatDialogContent]
+  //changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class PersonnageComponent implements OnInit {
+export class PersonnageDialog implements OnInit {
 
-  @Input() personnage! : Personnage;
   chemin = environment.imgAssets + "/personnages/";
   extension = ".jpg";
-  constructor() { }
+  masque = "";
+
+  constructor(@Inject(MAT_DIALOG_DATA) public data: Personnage) {
+    this.masque = data.masque? "Personnage masqué": "Personnage non masqué";
+  }
 
   ngOnInit(): void {
   }

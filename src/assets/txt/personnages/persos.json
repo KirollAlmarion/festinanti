@@ -1,105 +1,105 @@
 [
   {
     "nom": "Magnifico",
-    "statut": "maitre",
+    "statut": "Maître",
     "masque": true,
-    "description": "Laissez-passer le grand Magnifico. Maître incontesté de la cité, garant des valeurs citoyennes, sa parole et sa probité font foi. Sa loi juste est universellement reconnue et acceptée par tous. Pleinement conscient des enjeux conjoncturels, et soucieux d’assurer le bon équilibre de la collectivité, il sait faire des choix éclairés, bien que parfois douloureux, afin de prendre, en temps et en heures, les décisions qui s’imposent pour assurer le bien-être de ses administrés et la cohésion du tissu social. Il garantit la protection de ceux qui en ont le plus besoin, au moment nécessaire, par les mesures les plus adaptés, et la lutte sans merci contre les renégats et autres sécessionnistes qui tentent de saper, par tous les moyens, les fondements de notre belle société millénaire.",
+    "description": "Laissez-passer le grand Magnifico. Maître incontesté de la cité, garant des valeurs citoyennes, sa parole et sa probité font foi. Sa loi juste est universellement reconnue et acceptée par tous. Pleinement conscient des enjeux conjoncturels, et soucieux d’assurer le bon équilibre de la collectivité, il sait faire des choix éclairés, bien que parfois douloureux, afin de prendre, en temps et en heures, les décisions qui s’imposent pour assurer le bien\u2011être de ses administrés et la cohésion du tissu social. Il garantit la protection de ceux qui en ont le plus besoin, au moment nécessaire, par les mesures les plus adaptées, et la lutte sans merci contre les renégats et autres sécessionnistes qui tentent de saper, par tous les moyens, les fondements de notre belle société millénaire.",
     "photo": "magnifico"
   },
   {
     "nom": "Premier acteur",
-    "statut": "maitre",
+    "statut": "Maître",
     "masque": false,
     "description": "Mesdames et messieurs, voici celui que vous attendiez tous, le premier acteur ! Le port altier, le regard lointain, la carrure imposante, le geste ferme, ne trompent pas : c’est bien lui le seul et véritable Héros, qui fait triompher la Justice, l’Honnêteté, la Bravoure, la Grandeur et toutes ces sortes de Choses. Loin des tracasseries du quotidien, adversaire déclaré de la fourberie et de la veulerie, il se dévoue tout entier à sa noble tâche : défendre les faibles et pourfendre les traîtres. Sur son passage, les malandrins jettent les armes et plient l’échine en implorant son pardon, qu’il accorde, dans sa grande mansuétude, d’un geste magnanime de la main. Un vrai canevas digne de ce nom se doit de comporter un premier acteur.",
     "photo": "acteur"
   },
   {
     "nom": "Première actrice",
-    "statut": "maitre",
+    "statut": "Maître",
     "masque": false,
-    "description": "Tout en grâce et délicatesse, la première actrice éblouit l’assemblée de sa présence lumineuse et diaphane. Fine psychologue et grande diplomate, c’est par sa bonté et sa droiture qu’elle se fait respecter, et si besoin, et saura faire valoir ses prérogatives et rappeler que ses désirs sont des ordres.",
+    "description": "Tout en grâce et délicatesse, la première actrice éblouit l’assemblée de sa présence lumineuse et diaphane. Fine psychologue et grande diplomate, c’est par sa bonté et sa droiture qu’elle se fait respecter, et si besoin, elle saura faire valoir ses prérogatives et rappeler que ses désirs sont des ordres.",
     "photo": "actrice"
   },
   {
     "nom": "Pantalone",
-    "statut": "maitre",
+    "statut": "Maître",
     "masque": true,
     "description": "Pantalone est un entrepreneur et un homme d’expérience. Il doit sa fortune à son sens aigu de la bonne affaire, à sa roublardise et à un strict contrôle des dépenses, surtout les siennes. En homme avisé, il fait tout pour assurer une bonne situation à ses enfants, et pour ça, rien de mieux qu’un mariage avec un bon parti. Il fera tout pour leur éviter d’être victime de leur naïveté et de tomber dans le piège de l’amour. Les enfants sont si inconséquents, mais ces ingrats le remercieront plus tard! Après s’être donné du mal durant toute sa vie pour faire travailler des fainéants et des incapables à son service, il a bien mérité un peu de réconfort auprès de sa servante. Au prix qu’elle lui coûte !",
     "photo": "pantalone"
   },
   {
     "nom": "Le docteur",
-    "statut": "maitre",
+    "statut": "Maître",
     "masque": true,
-    "description": "Diplômé des plus grandes universités, expert en la matière, spécialiste de la question et polymathe universel, le docteur tire sa vis comica de sa libido sciendi. Maîtrisant in toto aussi bien la poétique d’Aristote que la théorie cinétique des gaz, son érudition sans borne et son acuité corticale font de lui un phare de savoir dans les ténèbres de l’obscurantisme crasse répandues sur ce monde qui s’enfonce un peu plus chaque jour dans la superficialité. S’il n’a pas banni le terme « ignorance » de son vocabulaire, c’est uniquement par soucis d’exhaustivité. En vrai Pic de la Mirandole, il sait tout, et ce qu’il ne sait pas il l’invente !",
+    "description": "Diplômé des plus grandes universités, expert en la matière, spécialiste de la question et polymathe universel, le docteur tire sa <em>vis comica</em> de sa <em>libido sciendi</em>. Maîtrisant <em>in toto</em> aussi bien la poétique d’Aristote que la théorie cinétique des gaz ou le principe d'incertitude de Pauli (à moins que ce ne soit Eisenberg?), son érudition sans borne et son acuité corticale font de lui un phare de savoir dans les ténèbres de l’obscurantisme crasse répandues sur ce monde qui s’enfonce un peu plus chaque jour dans la superficialité. S’il n’a pas banni le terme « ignorance » de son vocabulaire, c’est uniquement par soucis d’exhaustivité. En vrai Pic de la Mirandole, il sait tout, et ce qu’il ne sait pas il l’invente !",
     "photo": "dr"
   },
   {
     "nom": "Le capitaine",
-    "statut": "maitre",
+    "statut": "Maître",
     "masque": true,
     "description": "Qu’il s’appelle Scaramouche, Terremotto ou Fracasse, c’est le plus grand héros que la terre ait jamais porté. Il est de toutes les batailles et de toutes les joutes, surtout verbales. Rien ni personne ne lui résiste. Tous, qu’il s’agisse de fauves, d’armées ou de belles femmes, succombent à ses assauts.  Il n’hésite jamais à raconter ses nombreux exploits, mais sa pudeur l’empêche d’en faire démonstration en public.",
     "photo": "capitaine"
   },
   {
     "nom": "La courtisane",
-    "statut": "maitre",
+    "statut": "Maître",
     "masque": false,
     "description": "La courtisane est une (belle) femme indépendante. Loin de la superficialité d’une première actrice et de l’innocence d’une jeune première, elle sait parfaitement mener sa barque et les hommes. Sa beauté n’est pas un don de la nature, mais le résultat d’une attention constante. En effet, loin de n’être qu’un accessoire de mode, c’est elle qui lui assure sa renommée. Si la courtisane peut, sans travailler ni posséder de rente, mener grand train, c’est bien grâce aux cadeaux prodigués par ses (riches) admirateurs.",
     "photo": "courtisane"
   },
   {
     "nom": "Le jeune premier",
-    "statut": "maitre",
+    "statut": "Maître",
     "masque": false,
     "description": "En tant qu’amoureux, le jeune premier est tout feu tout flamme. Souvent en butte aux ambitions de ses parents qui, décidément, ne comprennent rien à ses aspirations, il est prêt à tout pour faire triompher son véritable amour. Après tout, il est comme le premier acteur, tout aussi fort et courageux. Ou presque. En tout cas, il le sera bientôt. En attendant, un stratagème ingénieux suggéré par un serviteur pourrait bien être d’une aide appréciable.",
     "photo": "amoureux"
   },
   {
     "nom": "La jeune première",
-    "statut": "maitre",
+    "statut": "Maître",
     "masque": false,
     "description": "La jeune première découvre ses premiers émois. Ce jeune homme est si aimable ! Oui, mais c’est lui qui doit faire le premier pas. Et tellement beau ! Mais l’aborder serait trop effronté. De toute façon, il ne peut pas ne pas la remarquer : elle est bien plus belle que la première actrice, qui se croit irrésistible. Elle, elle est jeune et fraîche, et il n’a pas intérêt à regarder ailleurs, sinon… De toute façon, il va venir la chercher sur un cheval blanc et l’emmener loin, dans un pays enchanté où ils seront heureux jusqu’à la fin des temps.",
     "photo": "amoureuse"
   },
   {
     "nom": "Brighella",
-    "statut": "serviteur",
+    "statut": "Serviteur",
     "masque": true,
     "description": "Sans Brighella, la valetaille s’agiterait vainement en tout sens. En tant que majordome dévoué et fidèle depuis des lustres, il connaît les désirs de son maître mieux que lui-même. En fin connaisseur de l’âme humaine, il est le pivot indispensable de la maisonnée. Il sait aussi bien anticiper les demandes de son maître que désamorcer les tentatives maladroites de ses subalternes pour échapper à leurs devoirs.",
     "photo": "brighella"
   },
   {
     "nom": "Arlequin",
-    "statut": "serviteur",
+    "statut": "Serviteur",
     "masque": true,
     "description": "Personnage haut en couleurs, vif aussi bien de corps que d’esprit, rusé et espiègle, Arlequin virevolte et jongle entre son service à son maître et ses propres manèges. Il sait dénicher les meilleures affaires et se sortir des situations les plus inextricables. De même qu’un chat retombe toujours sur ses pattes, Arlequin trouvera toujours le meilleur parti à tirer de l’imbroglio dans lequel il se trouve. Peut-être parce que c’est lui qui l’a provoqué.",
     "photo": "arlequin"
   },
   {
     "nom": "Polichinelle",
-    "statut": "serviteur",
+    "statut": "Serviteur",
     "masque": true,
     "description": "Polichinelle a roulé sa bosse dans tous les bas-fonds. Aussi rusé que son collègue Arlequin, il s’avère bien plus sournois. Il n’hésite pas à s’en prendre à plus faible que lui, dans le dos de préférence. Même si porter un coup ne le gêne pas, il préfère, de loin, économiser ses forces en s’arrangeant pour laisser son travail à un naïf, voire, en cas de coup dur, lui faire porter le chapeau. La vie est difficile et injuste, il le sait très bien et a appris à tirer son épingle du jeu.",
     "photo": "polichinelle"
   },
   {
     "nom": "Zanni",
-    "statut": "serviteur",
+    "statut": "Serviteur",
     "masque": true,
     "description": "Poussé par la nécessité, Zanni a dû quitter sa terre natale pour gagner son pain à la ville. Quoi que plein de bonne volonté, et impatient de satisfaire son appétit, il est bien moins au fait que ses collègues, à côté desquels il passe souvent pour un lourdaud, voire un benêt. Sa maladresse et son empressement à bien faire ne facilitent guère son intégration et en font une cible facile pour les maîtres abusifs ou les valets peu scrupuleux.",
     "photo": "zanni"
   },
   {
     "nom": "La servante",
-    "statut": "serviteur",
+    "statut": "Serviteur",
     "masque": false,
     "description": "Toute entière à sa tâche, la servante se démène pour satisfaire les besoins de son maître ou sa maîtresse, en veillant à réparer les erreurs et oublis de ses collègues masculins, tout en esquivant les avances réitérées d’un Pantalone qui peut être insistant sans être inquiété. Son emploi du temps chargé ne l’empêche pas de prodiguer ses conseils et son bon sens paysan aux jeunes amoureux, si mignons mais parfois complètement en dehors des réalités.",
     "photo": "servante"
   },
   {
     "nom": "La sorcière",
-    "statut": "marginal",
+    "statut": "Marginal",
     "masque": false,
     "description": "Longtemps pourchassée, la sorcière sort du bois. Ce n’est qu’une pauvre hère qui vit en marge de la civilisation, l’ultime représentante d’un mode de vie archaïque. Elle n’a plus sa place dans notre belle société si ordonnée. D’ailleurs, personne ne vient plus la consulter pour connaître son avenir ou acheter des potions ragaillardissantes. Et si on la tolère encore, c’est par pure bonté d’âme, et non par crainte superstitieuse. Ses sorts et ses imprécations, ce n’est que du folklore, rien de plus, ça n’existe pas, tout ça, voyons.",
     "photo": "sorciere"

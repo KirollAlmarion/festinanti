@@ -27,3 +27,32 @@ svg>rect, svg>g{
   font-size: 5rem;
   color: var(--ocre, yellow);
 }
+
+/*media queries*/
+
+/*grand écran*/
+@media screen and (max-width: 925px){
+
+}
+
+@media screen and (min-width:811px){
+
+}
+
+/* smartphone S*/
+@media screen and (min-width:575px) and (max-width:810px){
+
+}
+
+/* smartphone XS */
+@media screen and (max-width:574px){
+  #titre{
+    font-size: 3rem;
+  }
+
+  svg, img{
+    width: 4em;
+    height: 4em;
+    margin: .25em;
+  }
+}

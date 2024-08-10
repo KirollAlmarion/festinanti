@@ -24,6 +24,7 @@ import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http'
         MatCardModule,
         MatDialogModule,
         MatButtonModule,
-        LayoutModule],
+        LayoutModule
+        ],
     providers: [provideHttpClient(withInterceptorsFromDi())] })
 export class AppModule { }

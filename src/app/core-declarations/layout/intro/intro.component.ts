@@ -8,6 +8,7 @@ import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core
     </section>
   `,
   styleUrls: ['./intro.component.css'],
+  //standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class IntroComponent implements OnInit {

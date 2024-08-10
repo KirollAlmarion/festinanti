@@ -14,7 +14,6 @@ html, body { height: 100%; }
 /* body { margin: 0; font-family: Georgia, serif; } */
 
 main{
-  min-width: 430px;
   width: 80%;
   margin: auto;
   padding: 1em;
@@ -22,4 +21,32 @@ main{
   line-height: 2rem;
   font-family: Georgia, serif;
   color: black;
+}
+
+/*media queries*/
+
+/*grand écran*/
+@media screen and (max-width: 925px){
+
+}
+
+@media screen and (min-width:811px){
+  main{
+    min-width: 430px;
+  }
+}
+
+/* smartphone S*/
+@media screen and (min-width:575px) and (max-width:810px){
+  main{
+    min-width: 430px;
+  }
+}
+
+/* smartphone XS */
+@media screen and (max-width:574px){
+  main{
+    width: 90%;
+    font-size: 1.2rem;
+  }
 }

@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input, Output, OnInit, EventEmitter } from '@angular/core';
 import { Personnage } from '../../models/personnage.model';
 import { environment } from 'src/environments/environment';
 
@@ -6,7 +6,7 @@ import { environment } from 'src/environments/environment';
   selector: 'app-liste-persos[personnages]',
   template: `
     <section>
-      <figure *ngFor="let personnage of personnages">
+      <figure *ngFor="let personnage of personnages" (click)="this.selection.emit(personnage)">
         <img [src]="chemin + personnage.photo + extension" />
         <figcaption>
           {{personnage.nom}}
@@ -20,6 +20,7 @@ import { environment } from 'src/environments/environment';
 export class ListePersosComponent implements OnInit {
 
   @Input() personnages!: Personnage[];
+  @Output() selection = new EventEmitter<Personnage>();
   chemin = environment.imgAssets + "/personnages/";
   extension = "-medaillon.jpg";
   constructor() { }
@@ -28,7 +29,7 @@ export class ListePersosComponent implements OnInit {
   }
 
   affichePerso(perso: Personnage){
-
+    this.selection.emit(perso);
   }
 
 }

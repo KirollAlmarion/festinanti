@@ -1,3 +1,56 @@
 :host {
   display: block;
+  background-color: saddlebrown;
+}
+
+figcaption{
+  margin: .5rem;
+}
+
+img{
+  width: 320px;
+  object-fit: contain;
+}
+
+mat-dialog-content > div > p:first-child{
+  margin-right: 5rem;
+}
+
+/*media queries*/
+
+/*grand écran*/
+@media screen and (max-width: 925px){
+
+}
+
+@media screen and (min-width:811px){
+  :host{
+    height: 38rem;
+  }
+
+  mat-dialog-content{
+    overflow: visible;
+  }
+
+  mat-dialog-content > div{
+    display: flex;
+  }
+
+  figure{
+    display: flex;
+  }
+}
+
+/* smartphone S*/
+@media screen and (min-width:575px) and (max-width:810px){
+  img{
+    width: 240px;
+  }
+}
+
+/* smartphone XS */
+@media screen and (max-width:574px){
+  img{
+    width: 240px;
+  }
 }
