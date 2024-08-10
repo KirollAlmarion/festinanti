@@ -27,9 +27,4 @@ export class ListePersosComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-  affichePerso(perso: Personnage){
-    this.selection.emit(perso);
-  }
-
 }

@@ -9,6 +9,7 @@ figcaption{
 
 img{
   width: 320px;
+  height: 480px;
   object-fit: contain;
 }
 
@@ -45,6 +46,7 @@ mat-dialog-content > div > p:first-child{
 @media screen and (min-width:575px) and (max-width:810px){
   img{
     width: 240px;
+    height: 360px;
   }
 }
 
@@ -52,5 +54,6 @@ mat-dialog-content > div > p:first-child{
 @media screen and (max-width:574px){
   img{
     width: 240px;
+    height: 360px;
   }
 }

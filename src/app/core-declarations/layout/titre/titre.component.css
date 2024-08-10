@@ -51,8 +51,6 @@ svg>rect, svg>g{
   }
 
   svg, img{
-    width: 4em;
-    height: 4em;
-    margin: .25em;
+    margin: .5em .25em;
   }
 }
