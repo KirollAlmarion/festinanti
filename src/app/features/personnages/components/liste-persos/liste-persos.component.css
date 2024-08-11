@@ -8,13 +8,16 @@ section{
 }
 
 img{
+  width: 115px;
+  height: 115px;
   border-radius: 50%;
   display: inline;
-  margin: .1rem;
+  margin: .5rem;
 }
 
 figure{
   margin: .5rem;
+  cursor: pointer;
 }
 
 figcaption{
@@ -22,4 +25,37 @@ figcaption{
   height: 100%;
   width: 17rem;
   vertical-align: middle;
+}
+
+/*media queries */
+/* smartphone S*/
+@media screen and (min-width:575px) and (max-width:810px){
+  figure{
+    width: 100%;
+  }
+
+  img{
+    margin-left: calc(calc(100% - 115px) / 2);
+  }
+
+  figcaption{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* smartphone XS */
+@media screen and (max-width:574px){
+  figure{
+    width: 100%;
+  }
+
+  img{
+    margin-left: calc(calc(100% - 115px) / 2);
+  }
+
+  figcaption{
+    width: 100%;
+    text-align: center;
+  }
 }

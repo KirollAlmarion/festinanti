@@ -5,7 +5,7 @@ import { ContenuService } from 'src/app/core-services/contenu/contenu.service';
   template: `
     <div *ngIf="contenu; then thenBlock else elseBlock"></div>
     <ng-template #thenBlock><app-intro [contenu]="contenu!"></app-intro></ng-template>
-    <ng-template #elseBlock>Content to render when condition is false.</ng-template>
+    <ng-template #elseBlock>Bienvenue, cher public.</ng-template>
   `,
   styleUrls: ['./accueil.page.css']
 })
