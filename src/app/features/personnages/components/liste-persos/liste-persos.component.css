@@ -8,6 +8,8 @@ section{
 }
 
 img{
+  width: 115px;
+  height: 115px;
   border-radius: 50%;
   display: inline;
   margin: .5rem;
@@ -33,8 +35,6 @@ figcaption{
   }
 
   img{
-    width: 115px;
-    height: 115px;
     margin-left: calc(calc(100% - 115px) / 2);
   }
 
@@ -51,8 +51,6 @@ figcaption{
   }
 
   img{
-    width: 115px;
-    height: 115px;
     margin-left: calc(calc(100% - 115px) / 2);
   }
 
