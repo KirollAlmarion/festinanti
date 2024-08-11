@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CanevasComponent } from './canevas.component';
+import { CanevasPage } from './pages/canevas/canevas.page';
 
-const routes: Routes = [{ path: '', component: CanevasComponent }];
+const routes: Routes = [{ path: '', component: CanevasPage }];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],

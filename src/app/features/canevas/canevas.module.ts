@@ -2,14 +2,14 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { CanevasRoutingModule } from './canevas-routing.module';
-import { CanevasComponent } from './canevas.component';
 import { ListeCanevasComponent } from './components/liste-canevas/liste-canevas.component';
+import { CanevasPage } from './pages/canevas/canevas.page';
 
 
 @NgModule({
   declarations: [
-    CanevasComponent,
-    ListeCanevasComponent
+    ListeCanevasComponent,
+    CanevasPage
   ],
   imports: [
     CommonModule,

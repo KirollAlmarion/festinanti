@@ -1,14 +1,13 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-canevas',
   template: `
     <p>
       canevas works!
     </p>
   `,
-  styleUrls: ['./canevas.component.css']
+  styleUrls: ['./canevas.page.css']
 })
-export class CanevasComponent {
+export class CanevasPage {
 
 }
