@@ -1,5 +1,5 @@
 export interface Role{
   nom: string,
-  commentaire: string,
+  commentaire?: string,
   personnage: string
 }

@@ -2,6 +2,10 @@
   display: block;
 }
 
+section{
+  margin: 2rem;
+}
+
 li{
   cursor: pointer;
 }
