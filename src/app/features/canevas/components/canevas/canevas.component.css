@@ -2,10 +2,14 @@
   display: block;
 }
 
-section{
-  margin: 2rem;
+article{
+  margin-top: 2rem;
 }
 
-li{
+section{
+  margin: 1rem;
+}
+
+span{
   cursor: pointer;
 }

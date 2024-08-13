@@ -8,6 +8,7 @@ import { CanevasComponent } from './components/canevas/canevas.component';
 import { LayoutModule } from 'src/app/core-declarations/layout/layout.module';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import {MatListModule} from '@angular/material/list';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { MatIconModule } from '@angular/material/icon';
     CommonModule,
     MatButtonModule,
     MatIconModule,
+    MatListModule,
     CanevasRoutingModule,
     LayoutModule
   ]
