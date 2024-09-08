@@ -23,6 +23,14 @@ main{
   color: black;
 }
 
+h2{
+  font-size: 3rem !important;
+}
+
+h3{
+  font-size: 2.5rem !important;
+}
+
 /*media queries*/
 
 /*grand écran*/

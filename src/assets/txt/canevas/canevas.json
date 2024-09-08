@@ -1,0 +1,110 @@
+[
+  {
+    "titre": "La maladie d'amour",
+    "description": "Pantalone s'associe au Docteur pour vendre des millions de doses d'élixir contre une maladie nouvellement inventée: La mort porcine.",
+    "distribution":[
+      {
+        "nom": "Pantalone",
+        "commentaire": "veuf, marchand en difficulté financière",
+        "personnage": "pantalone"
+      },
+      {
+        "nom": "Bérénice",
+        "commentaire": "fille de Pantalone",
+        "personnage": "amoureuse"
+      },
+      {
+        "nom": "Lélio",
+        "commentaire": "neveu de Lucrecia",
+        "personnage": "amoureux"
+      },
+      {
+        "nom": "Lucrecia",
+        "commentaire": "tante de Lélio",
+        "personnage": "courtisane"
+      },
+      {
+        "nom": "Marcelline",
+        "commentaire": "servante de Pantalone",
+        "personnage": "servante"
+      },
+      {
+        "nom": "Le docteur",
+        "commentaire": "ami de Pantalone",
+        "personnage": "dr"
+      }
+    ]
+  },
+  {
+    "titre": "Le bon sauvage",
+    "description": "Oppressé par une vie stressante à Venise, Pantalone décide de partir avec ses enfants en vacance à Constantinople, une région sauvage et authentique...",
+    "distribution":[
+      {
+        "nom": "Pantalone",
+        "commentaire": "riche marchand vénitien",
+        "personnage": "pantalone"
+      },
+      {
+        "nom": "Julie",
+        "commentaire": "fille de Pantalone",
+        "personnage": "amoureuse"
+      },
+      {
+        "nom": "Emile",
+        "commentaire": "fils de Pantalone",
+        "personnage": "amoureux"
+      },
+      {
+        "nom": "Dolorès",
+        "commentaire": "tenancière de la villa Beauséjour",
+        "personnage": "courtisane"
+      },
+      {
+        "nom": "Fatima",
+        "commentaire": "servante à la villa Beauséjour",
+        "personnage": "servante"
+      },
+      {
+        "nom": "Polichinelle",
+        "commentaire": "serviteur à la villa Beauséjour",
+        "personnage": "polichinelle"
+      }
+    ]
+  },
+  {
+    "titre": "Le leader suprême",
+    "description": "Le leader suprême règne sur son pays avec cruauté. Mais le peuple gronde et d'autres convoitent sa place. Que celui qui est haut prenne garde de tomber!",
+    "distribution":[
+      {
+        "nom": "Leader suprême",
+        "commentaire": "tyran",
+        "personnage": "magnifico"
+      },
+      {
+        "nom": "Capitaine Tantamy-BenAlla",
+        "commentaire": "chef des armées",
+        "personnage": "capitaine"
+      },
+      {
+        "nom": "Brigitte",
+        "commentaire": "ex-épouse du leader",
+        "personnage": "courtisane"
+      },
+      {
+        "nom": "Julie",
+        "commentaire": "nouvelle épouse du leader",
+        "personnage": "courtisane"
+      },
+      {
+        "nom": "Anisette",
+        "commentaire": "servante de Brigitte",
+        "personnage": "servante"
+      },
+      {
+        "nom": "Zanni",
+        "commentaire": "serviteur du capitaine",
+        "personnage": "zanni"
+      }
+    ]
+  }
+]

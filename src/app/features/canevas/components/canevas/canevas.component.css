@@ -1,0 +1,15 @@
+:host {
+  display: block;
+}
+
+article{
+  margin-top: 2rem;
+}
+
+section{
+  margin: 1rem;
+}
+
+span{
+  cursor: pointer;
+}
