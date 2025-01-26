@@ -14,7 +14,7 @@ import { ChangeDetectionStrategy, Component, EventEmitter, OnInit, Output } from
             <line transform="translate(0, 50)" x1="25" y1="25" x2="75" y2="25" />
           </g>
       </svg>
-      <a routerLink="/accueil"><img src="/assets/img/structure/scene.svg" matTooltip = "Accueil" matTooltipPosition = "right"></a>
+      <a routerLink="/accueil"><img src="assets/img/structure/scene.svg" matTooltip = "Accueil" matTooltipPosition = "right"></a>
       <p id="titre">Les Festinanti</p>
     </div>
   `,
