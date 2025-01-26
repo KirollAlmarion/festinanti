@@ -1,0 +1,1 @@
+import{Sa as a,o as r,ra as i,t as d}from"./chunk-QF2CGPEP.js";var y=(()=>{let t=class t{};t.\u0275fac=function(c){return new(c||t)},t.\u0275mod=d({type:t}),t.\u0275inj=r({imports:[a,i,a]});let e=t;return e})();export{y as a};
