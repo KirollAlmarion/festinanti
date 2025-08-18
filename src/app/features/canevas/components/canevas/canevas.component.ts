@@ -7,8 +7,8 @@ import { ContenuService } from 'src/app/core-services/contenu/contenu.service';
 
 
 @Component({
-  selector: 'app-canevas[canevas]',
-  template: `
+    selector: 'app-canevas[canevas]',
+    template: `
     <button mat-fab extended (click)="this.retour.emit()"><mat-icon>arrow_back</mat-icon>Retour à la liste</button>
     <article>
       <h2>{{canevas.titre}}</h2>
@@ -26,8 +26,9 @@ import { ContenuService } from 'src/app/core-services/contenu/contenu.service';
       </section>
     </article>
   `,
-  styleUrls: ['./canevas.component.css'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+    styleUrls: ['./canevas.component.css'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: false
 })
 export class CanevasComponent implements OnInit {
   @Input() canevas!: Canevas;

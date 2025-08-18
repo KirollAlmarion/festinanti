@@ -1,8 +1,8 @@
 import { ChangeDetectionStrategy, Component, EventEmitter, OnInit, Output } from '@angular/core';
 
 @Component({
-  selector: 'app-titre',
-  template: `
+    selector: 'app-titre',
+    template: `
     <div>
       <svg
       matTooltip = "Menu" matTooltipPosition = "below" (click)="clickOnMenu()"
@@ -18,8 +18,9 @@ import { ChangeDetectionStrategy, Component, EventEmitter, OnInit, Output } from
       <p id="titre">Les Festinanti</p>
     </div>
   `,
-  styleUrls: ['./titre.component.css'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+    styleUrls: ['./titre.component.css'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: false
 })
 export class TitreComponent implements OnInit {
 

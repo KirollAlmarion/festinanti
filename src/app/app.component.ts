@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 import { IndexService } from './features/accueil/services/index.service';
 
 @Component({
-  selector: 'app-root',
-  template: `
+    selector: 'app-root',
+    template: `
     <!--The content below is only a placeholder and can be replaced.-->
     <app-titre (action)="sidenav.toggle()"></app-titre>
     <mat-sidenav-container class="example-container" [hasBackdrop]="false">
@@ -18,7 +18,8 @@ import { IndexService } from './features/accueil/services/index.service';
     </mat-sidenav-container>
 
   `,
-  styleUrls: ['./app.component.css']
+    styleUrls: ['./app.component.css'],
+    standalone: false
 })
 export class AppComponent {
   title = 'Festinanti';
