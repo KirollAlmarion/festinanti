@@ -3,9 +3,15 @@ import { ContenuService } from 'src/app/core-services/contenu/contenu.service';
 
 @Component({
     template: `
-    <div *ngIf="contenu; then thenBlock else elseBlock"></div>
-    <ng-template #thenBlock><app-intro [contenu]="contenu!"></app-intro></ng-template>
-    <ng-template #elseBlock>Bienvenue, cher public.</ng-template>
+    @if (contenu){
+      <app-intro [contenu]="contenu!"></app-intro>
+    }
+    @else {
+      <app-intro [contenu]="['Bienvenue, cher public.']"></app-intro>
+    }
+    <!-- <div *ngIf="contenu; then thenBlock else elseBlock"></div>
+    <ng-template #thenBlock></ng-template>
+    <ng-template #elseBlock>Bienvenue, cher public.</ng-template> -->
   `,
     styleUrls: ['./accueil.page.css'],
     standalone: false
