@@ -2,12 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { ContenuService } from 'src/app/core-services/contenu/contenu.service';
 
 @Component({
-  template: `
+    template: `
     <div *ngIf="contenu; then thenBlock else elseBlock"></div>
     <ng-template #thenBlock><app-intro [contenu]="contenu!"></app-intro></ng-template>
     <ng-template #elseBlock>Bienvenue, cher public.</ng-template>
   `,
-  styleUrls: ['./accueil.page.css']
+    styleUrls: ['./accueil.page.css'],
+    standalone: false
 })
 export class AccueilPage implements OnInit {
 

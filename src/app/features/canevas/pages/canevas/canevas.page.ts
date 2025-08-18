@@ -4,7 +4,7 @@ import { Canevas } from '../../models/canevas.model';
 import { ContenuService } from 'src/app/core-services/contenu/contenu.service';
 
 @Component({
-  template: `
+    template: `
     <div *ngIf="canevas; then thenBlock else elseBlock"></div>
     <ng-template #thenBlock><app-canevas [canevas]="canevas!" (retour)="this.canevas = undefined"></app-canevas></ng-template>
     <ng-template #elseBlock>
@@ -12,7 +12,8 @@ import { ContenuService } from 'src/app/core-services/contenu/contenu.service';
       <app-liste-canevas [liste]="liste" (selection)="this.canevas = $event"></app-liste-canevas>
     </ng-template>
   `,
-  styleUrls: ['./canevas.page.css']
+    styleUrls: ['./canevas.page.css'],
+    standalone: false
 })
 export class CanevasPage implements OnInit {
   contenu: string[] = ["Voici nos canevas."];

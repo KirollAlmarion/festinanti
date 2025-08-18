@@ -3,8 +3,8 @@ import { Personnage } from '../../models/personnage.model';
 import { environment } from 'src/environments/environment';
 
 @Component({
-  selector: 'app-liste-persos[personnages]',
-  template: `
+    selector: 'app-liste-persos[personnages]',
+    template: `
     <section>
       <figure *ngFor="let personnage of personnages" (click)="this.selection.emit(personnage)">
         <img [src]="chemin + personnage.photo + extension" />
@@ -14,8 +14,9 @@ import { environment } from 'src/environments/environment';
       </figure>
     </section>
   `,
-  styleUrls: ['./liste-persos.component.css'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+    styleUrls: ['./liste-persos.component.css'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: false
 })
 export class ListePersosComponent implements OnInit {
 

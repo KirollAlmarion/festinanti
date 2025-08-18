@@ -4,8 +4,8 @@ import { Personnage } from '../../models/personnage.model';
 import { environment } from 'src/environments/environment';
 
 @Component({
-  selector: 'personnage-dialog',
-  template: `
+    selector: 'personnage-dialog',
+    template: `
     <h2 mat-dialog-title>{{data.nom}}</h2>
     <mat-dialog-content>
       <div>
@@ -20,10 +20,9 @@ import { environment } from 'src/environments/environment';
         </figure>
     </mat-dialog-content>
   `,
-  styleUrls: ['./personnage.component.css'],
-  standalone: true,
-  imports: [MatDialogTitle, MatDialogContent]
-  //changeDetection: ChangeDetectionStrategy.OnPush
+    styleUrls: ['./personnage.component.css'],
+    imports: [MatDialogTitle, MatDialogContent]
+    //changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class PersonnageDialog implements OnInit {
 

@@ -1,8 +1,8 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-menu',
-  template: `
+    selector: 'app-menu',
+    template: `
     <nav>
       <ul [style]="aspect">
           <li (click)="toggleMenu()"><a><mat-icon [fontIcon]="arrowIcon"></mat-icon><span>Replier</span></a></li>
@@ -16,8 +16,9 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
       </ul>
     </nav>
   `,
-  styleUrls: ['./menu.component.css'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+    styleUrls: ['./menu.component.css'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: false
 })
 export class MenuComponent implements OnInit {
 

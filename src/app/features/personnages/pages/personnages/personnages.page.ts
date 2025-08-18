@@ -5,11 +5,12 @@ import { Personnage } from '../../models/personnage.model';
 import { PersonnageDialog } from '../../components/personnage/personnage.component';
 
 @Component({
-  template: `
+    template: `
     <app-intro [contenu]="contenu!"></app-intro>
     <app-liste-persos [personnages]="personnages!" (selection)="showPerso($event)"></app-liste-persos>
   `,
-  styleUrls: ['./personnages.page.css']
+    styleUrls: ['./personnages.page.css'],
+    standalone: false
 })
 export class PersonnagesPage implements OnInit {
 
