@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { ChangeDetectionStrategy, Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
     selector: 'app-titre',
@@ -22,17 +22,11 @@ import { ChangeDetectionStrategy, Component, EventEmitter, OnInit, Output } from
     changeDetection: ChangeDetectionStrategy.OnPush,
     standalone: false
 })
-export class TitreComponent implements OnInit {
+export class TitreComponent {
 
   @Output() readonly action = new EventEmitter<boolean>();
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
   clickOnMenu(){
     this.action.emit(true);
   }
-
 }

@@ -5,7 +5,6 @@ import { Personnage } from 'src/app/features/personnages/models/personnage.model
 import { PersonnageDialog } from 'src/app/features/personnages/components/personnage/personnage.component';
 import { ContenuService } from 'src/app/core-services/contenu/contenu.service';
 
-
 @Component({
     selector: 'app-canevas[canevas]',
     template: `
@@ -14,14 +13,13 @@ import { ContenuService } from 'src/app/core-services/contenu/contenu.service';
       <h2>{{canevas.titre}}</h2>
       <p>{{canevas.description}}</p>
       <section>
-        <!-- <ul>
-          <li *ngFor="let role of canevas.distribution" (click)="showPerso(role.personnage)"><b>{{role.nom}}</b><span *ngIf="role.commentaire">, {{role.commentaire}}</span></li>
-        </ul> -->
         <mat-list>
-          <mat-list-item *ngFor="let role of canevas.distribution">
-            <span matListItemTitle (click)="showPerso(role.personnage)">{{role.nom}}</span>
-            {{role.commentaire}}
-          </mat-list-item>
+          @for (role of canevas.distribution; track $index) {
+            <mat-list-item>
+              <span matListItemTitle (click)="showPerso(role.personnage)">{{role.nom}}</span>
+              {{role.commentaire}}
+            </mat-list-item>
+          }
         </mat-list>
       </section>
     </article>

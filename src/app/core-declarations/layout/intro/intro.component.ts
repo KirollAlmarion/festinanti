@@ -1,23 +1,19 @@
-import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 
 @Component({
     selector: 'app-intro[contenu]',
     template: `
     <section>
-      <p *ngFor="let item of contenu" [innerHTML]="item"></p>
+      @for (item of contenu; track $index) {
+        <p [innerHTML]="item"></p>
+      }
     </section>
   `,
     styleUrls: ['./intro.component.css'],
-    //standalone: true,
     changeDetection: ChangeDetectionStrategy.OnPush,
     standalone: false
 })
-export class IntroComponent implements OnInit {
+export class IntroComponent {
 
   @Input() contenu!: string[];
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }

@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
     selector: 'app-menu',
@@ -20,18 +20,13 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
     changeDetection: ChangeDetectionStrategy.OnPush,
     standalone: false
 })
-export class MenuComponent implements OnInit {
+export class MenuComponent {
 
   deplie = true;
   arrowIcon = "arrow_back";
   homeIcon = "home";
   people = "people";
   aspect= "width: 10em;";
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
   toggleMenu(){
     this.deplie = !this.deplie;
