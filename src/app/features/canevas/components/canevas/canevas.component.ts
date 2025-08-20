@@ -14,16 +14,12 @@ import { ContenuService } from 'src/app/core-services/contenu/contenu.service';
       <p>{{canevas.description}}</p>
       <section>
         <mat-list>
-          @for (role of canevas.distribution; track role.nom) {
+          @for (role of canevas.distribution; track $index) {
             <mat-list-item>
               <span matListItemTitle (click)="showPerso(role.personnage)">{{role.nom}}</span>
               {{role.commentaire}}
             </mat-list-item>
           }
-          <!-- <mat-list-item *ngFor="let role of canevas.distribution">
-            <span matListItemTitle (click)="showPerso(role.personnage)">{{role.nom}}</span>
-            {{role.commentaire}}
-          </mat-list-item> -->
         </mat-list>
       </section>
     </article>

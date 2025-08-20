@@ -11,10 +11,6 @@ import { ContenuService } from 'src/app/core-services/contenu/contenu.service';
       <app-intro [contenu]="contenu"></app-intro>
       <app-liste-canevas [liste]="liste" (selection)="this.canevas = $event"></app-liste-canevas>
     }
-    <!-- <div *ngIf="canevas; then thenBlock else elseBlock"></div>
-    <ng-template #thenBlock></ng-template>
-    <ng-template #elseBlock>
-    </ng-template> -->
   `,
     styleUrls: ['./canevas.page.css'],
     standalone: false

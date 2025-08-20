@@ -1,20 +1,17 @@
-import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 
 @Component({
     selector: 'app-paragraphes[contenu]',
     template: `
-    <p *ngFor="let item of contenu" [innerHTML]="item"></p>
+    @for (item of contenu; track $index) {
+      <p [innerHTML]="item"></p>
+    }
   `,
     styleUrls: ['./paragraphes.component.css'],
     changeDetection: ChangeDetectionStrategy.OnPush,
     standalone: false
 })
-export class ParagraphesComponent implements OnInit {
+export class ParagraphesComponent {
 
   @Input() contenu!: string[]
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }

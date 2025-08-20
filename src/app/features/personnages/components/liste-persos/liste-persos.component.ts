@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, Input, Output, OnInit, EventEmitter } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input, Output, EventEmitter } from '@angular/core';
 import { Personnage } from '../../models/personnage.model';
 import { environment } from 'src/environments/environment';
 
