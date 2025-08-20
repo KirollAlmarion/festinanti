@@ -6,7 +6,10 @@ import { Canevas } from '../../models/canevas.model';
     template: `
     <section>
       <ul>
-        <li *ngFor="let canevas of liste" (click)="this.selection.emit(canevas)">{{canevas.titre}}</li>
+        @for (canevas of liste; track $index) {
+          <li (click)="this.selection.emit(canevas)">{{canevas.titre}}</li>
+        }
+        <!-- <li *ngFor="let canevas of liste" (click)="this.selection.emit(canevas)">{{canevas.titre}}</li> -->
       </ul>
     </section>
   `,

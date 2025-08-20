@@ -9,9 +9,6 @@ import { ContenuService } from 'src/app/core-services/contenu/contenu.service';
     @else {
       <app-intro [contenu]="['Bienvenue, cher public.']"></app-intro>
     }
-    <!-- <div *ngIf="contenu; then thenBlock else elseBlock"></div>
-    <ng-template #thenBlock></ng-template>
-    <ng-template #elseBlock>Bienvenue, cher public.</ng-template> -->
   `,
     styleUrls: ['./accueil.page.css'],
     standalone: false
@@ -24,5 +21,4 @@ export class AccueilPage implements OnInit {
   ngOnInit(): void {
     this.index.introAccueil.subscribe(contenu => this.contenu = contenu);
   }
-
 }

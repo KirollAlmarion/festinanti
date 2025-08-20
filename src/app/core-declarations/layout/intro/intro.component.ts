@@ -4,11 +4,13 @@ import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core
     selector: 'app-intro[contenu]',
     template: `
     <section>
-      <p *ngFor="let item of contenu" [innerHTML]="item"></p>
+      @for (item of contenu; track $index) {
+        <p [innerHTML]="item"></p>
+      }
+      <!-- <p *ngFor="let item of contenu" [innerHTML]="item"></p> -->
     </section>
   `,
     styleUrls: ['./intro.component.css'],
-    //standalone: true,
     changeDetection: ChangeDetectionStrategy.OnPush,
     standalone: false
 })
