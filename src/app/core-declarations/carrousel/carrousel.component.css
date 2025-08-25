@@ -1,0 +1,26 @@
+:host {
+  display: block;
+}
+
+figcaption{
+  position: relative;
+  left: 2rem;
+  height: 18rem;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  border-radius: 0.5em;
+  transition: 2s;
+  margin-bottom: 1rem;
+}
+
+/* smartphone XXS */
+@media screen and (max-width:359px){
+  figcaption{
+    left: 0;
+  }
+}

@@ -11,3 +11,10 @@ mat-sidenav
 {
   background-color: var(--rouge-fonce);
 }
+
+/* smartphone XXS */
+@media screen and (max-width:359px){
+  .example-container{
+    top: 2.5rem;
+  }
+}

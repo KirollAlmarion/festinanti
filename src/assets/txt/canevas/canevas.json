@@ -1,5 +1,7 @@
 [
   {
+    "nom": "maladie",
+    "photos": 5,
     "titre": "La maladie d'amour",
     "description": "Pantalone s'associe au Docteur pour vendre des millions de doses d'élixir contre une maladie nouvellement inventée: La mort porcine.",
     "distribution":[
@@ -36,6 +38,8 @@
     ]
   },
   {
+    "nom": "sauvage",
+    "photos": 8,
     "titre": "Le bon sauvage",
     "description": "Oppressé par une vie stressante à Venise, Pantalone décide de partir avec ses enfants en vacance à Constantinople, une région sauvage et authentique...",
     "distribution":[
@@ -72,6 +76,8 @@
     ]
   },
   {
+    "nom": "leader",
+    "photos": 5,
     "titre": "Le leader suprême",
     "description": "Le leader suprême règne sur son pays avec cruauté. Mais le peuple gronde et d'autres convoitent sa place. Que celui qui est haut prenne garde de tomber!",
     "distribution":[
