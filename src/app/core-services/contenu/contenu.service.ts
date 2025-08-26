@@ -26,7 +26,7 @@ export class ContenuService {
     this.http.get<string[]>(`${environment.txtAssets}/canevas/intro.json`).subscribe(contenu => this.introCanevas.next(contenu));
     this.http.get<string[]>(`${environment.txtAssets}/equipe/equipe.json`).subscribe(contenu => this.introEquipe.next(contenu));
     this.http.get<string[]>(`${environment.txtAssets}/personnages/personnages.json`).subscribe(contenu => this.introPersonnages.next(contenu));
-    this.http.get<string[]>(`${environment.txtAssets}/actualites/actualites.json`).subscribe(contenu => this.introActualites.next(contenu));
+    this.http.get<string[]>(`${environment.txtAssets}/actualites/actualite.json`).subscribe(contenu => this.introActualites.next(contenu));
     this.http.get<string[]>(`${environment.txtAssets}/partenaires/partenaires.json`).subscribe(contenu => this.introPartenaires.next(contenu));
     this.http.get<string[]>(`${environment.txtAssets}/contact/contact.json`).subscribe(contenu => this.introContact.next(contenu));
 
