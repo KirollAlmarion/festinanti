@@ -22,6 +22,7 @@ import { ContenuService } from 'src/app/core-services/contenu/contenu.service';
           }
         </mat-list>
       </section>
+      <app-carrousel [emplacement]="'canevas/' + canevas.nom" [nombre]="canevas.photos"></app-carrousel>
     </article>
   `,
     styleUrls: ['./canevas.component.css'],

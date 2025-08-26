@@ -31,6 +31,10 @@ h3{
   font-size: 2.5rem !important;
 }
 
+p, h2, h3{
+  padding: .5rem;
+}
+
 /*media queries*/
 
 /*grand écran*/
@@ -52,9 +56,35 @@ h3{
 }
 
 /* smartphone XS */
-@media screen and (max-width:574px){
+@media screen and (min-width:360px) and (max-width:574px){
   main{
-    width: 90%;
     font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+
+  h2{
+    font-size: 1.7rem !important;
+  }
+
+  h3{
+    font-size: 1.5rem !important;
+  }
+}
+
+/* smartphone XXS */
+@media screen and (max-width:359px){
+  main{
+    width: 100%;
+    padding: 0;
+    font-size: .8rem;
+    line-height: .8rem;
+  }
+
+  h2{
+    font-size: 1.5rem !important;
+  }
+
+  h3{
+    font-size: 1.2rem !important;
   }
 }

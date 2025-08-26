@@ -45,7 +45,7 @@ svg>rect, svg>g{
 }
 
 /* smartphone XS */
-@media screen and (max-width:574px){
+@media screen and (min-width:360px) and (max-width:574px){
   #titre{
     font-size: 3rem;
   }
@@ -53,4 +53,21 @@ svg>rect, svg>g{
   svg, img{
     margin: .5em .25em;
   }
+}
+
+/* smartphone XXS */
+@media screen and (max-width:359px){
+  #titre{
+    font-size: 2rem;
+  }
+
+  div{
+    line-height: 2.5em;
+  }
+
+  svg, img{
+  width: 2em;
+  height: 2em;
+  margin: .25em;
+}
 }
